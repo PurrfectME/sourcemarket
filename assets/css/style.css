@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.help{
+    height: 21px;
+    background-color: #505050;
+}
+
+.help p{
+    color: white;
+    padding-top: 5px;
+    margin-left: 164px; 
+    font-size: 7px;
+    font-weight: 800;
+    text-align: start ;
+}
+
+header{
+    top: 0px;
+    position: sticky;
+    border-bottom:black solid 0.5px;
+    background-color: white;
+
+}
+
+.div1{
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 164px;
+    margin-left: 164px;
+}
+
+.bsn{
+     display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.bsn a{
+    text-decoration: none;
+    color: black;
+}
+
+.bsn a:hover{
+    font: weight 800px;
+    border-bottom: black solid 1px;
+    
+}
+
+.vr{
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.vr a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.logo{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+
+.search{
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+.search::before{
+    content: url("//assets/img/лупа\ 1.svg");
+}
+
+.vhod{
+    margin-right: 20px;
+    border: black solid 1px;
+    width: 80px;
+    height: 26px;
+    text-align: center;
+
+}
+
+
+.reg{
+border: black solid 1px;
+background-color: black;
+width: 140px;
+height: 26px;
+margin: auto;
+text-align: center;
+}
+
+.reg a{
+    color: white;
+}
+
+.news{
+    margin-left: 20px;
+}
+
+.sell{
+    margin-right: 20px;
+}
+
+.sell a{
+
+}
+
+
+
+/* main */
+
+
+.div2{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 164px;
+    margin-left: 164px;
+    margin-top: 2px;
+}
+
+.div2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+
+.div3{
+    position: relative;
+    top: -40px;
+    display:flex;
+    z-index: -2;
+}
+
+
+
+
